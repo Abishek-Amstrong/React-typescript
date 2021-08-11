@@ -1,8 +1,9 @@
 import ReactDOM from "react-dom";
+import EventComponent from "./Events/EventComponent";
 
 const App = () => {
     return <div>
-        <h1>Hi There !</h1>
+        <EventComponent />
     </div>
 };
 
